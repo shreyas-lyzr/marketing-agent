@@ -1,0 +1,50 @@
+spec_version: "0.1.0"
+name: marketing-agent
+version: 1.0.0
+description: A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and more.
+
+model:
+  preferred: claude-sonnet-4-5-20250929
+  fallback:
+    - claude-haiku-4-5-20251001
+  constraints:
+    temperature: 0.3
+    max_tokens: 8192
+
+skills:
+  - ab-test-setup
+  - ad-creative
+  - ai-seo
+  - analytics-tracking
+  - churn-prevention
+  - cold-email
+  - competitor-alternatives
+  - content-strategy
+  - copy-editing
+  - copywriting
+  - email-sequence
+  - form-cro
+  - free-tool-strategy
+  - launch-strategy
+  - marketing-ideas
+  - marketing-psychology
+  - onboarding-cro
+  - page-cro
+  - paid-ads
+  - paywall-upgrade-cro
+  - popup-cro
+  - pricing-strategy
+  - product-marketing-context
+  - programmatic-seo
+  - referral-program
+  - revops
+  - sales-enablement
+  - schema-markup
+  - seo-audit
+  - signup-flow-cro
+  - site-architecture
+  - social-content
+
+runtime:
+  max_turns: 30
+  timeout: 180
