@@ -5,7 +5,7 @@ A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO,
 ## Run
 
 ```bash
-npx @open-gitagent/gitagent run -r https://github.com/<username>/marketing-agent
+npx @open-gitagent/gitagent run -r https://github.com/shreyas-lyzr/marketing-agent
 ```
 
 ## What It Can Do
