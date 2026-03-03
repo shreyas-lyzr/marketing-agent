@@ -4,9 +4,9 @@ version: 1.0.0
 description: A comprehensive AI marketing agent with 32 specialized skills covering SEO, CRO, copywriting, paid ads, email marketing, analytics, pricing strategy, and more.
 
 model:
-  preferred: claude-sonnet-4-5-20250929
+  preferred: claude-opus-4-6
   fallback:
-    - claude-haiku-4-5-20251001
+    - claude-sonnet-4-6
   constraints:
     temperature: 0.3
     max_tokens: 8192
